@@ -1,0 +1,41 @@
+#navbar {
+    display: flex;
+    align-items: center;   
+}
+
+#navbar li {
+    list-style-type: none;
+}
+
+#navbar li:hover {
+    transition: 0.2s;
+    color: white;
+}
+
+#navbar li a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.nav-title {
+    display: flex;
+    justify-self: flex-start;
+
+    font-family: Alfa Slab One, sans-serif;
+    font-size: 2.5em;
+    color: #ffdd59;
+
+    margin-left: 0.5em;
+}
+
+.nav-link {
+    display: flex;
+    justify-self: flex-end;
+
+    font-family: Inter Tight, sans-serif;
+    font-weight: 600;
+    font-size: 1.25em;
+    color: #808e9b;
+
+    margin-left: 2em;
+}
